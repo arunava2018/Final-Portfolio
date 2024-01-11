@@ -4,11 +4,13 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  zoom: 100%;
 }
 body {
   background-color: #1f242d;
   font-family: "Poppins", sans-serif;
   color: white;
+  
 }
 /* Home Section */
 .header {
@@ -16,7 +18,7 @@ body {
   align-items: center;
   justify-content: space-between;
   /* margin-top: 20px; */
-  padding: 25px 13%;
+  padding: 10px 13%;
   transition: 0.3s;
 }
 .header .sticky {
